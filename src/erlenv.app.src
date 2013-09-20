@@ -1,0 +1,11 @@
+{application, erlenv, [
+  {id, "erlenv"},
+  {description, "Setup different things based on ERL_ENV environment variable"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {applications, [
+    kernel,
+    stdlib
+  ]},
+  {env, []}
+]}.
